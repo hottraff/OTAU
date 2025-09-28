@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="dfb070b8-e1bf-4820-89bd-b8bdd78d1d78">
+  <name>МодульОповещений</name>
+  <synonym>
+    <key>ru</key>
+    <value>Модуль оповещений</value>
+  </synonym>
+  <global>true</global>
+  <clientManagedApplication>true</clientManagedApplication>
+</mdclass:CommonModule>

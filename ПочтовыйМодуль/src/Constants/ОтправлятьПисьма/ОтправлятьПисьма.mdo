@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="de8f1fe7-3325-454b-95b6-1861b600cf71">
+  <producedTypes>
+    <managerType typeId="1961b987-0894-4d44-941b-9dee148fd75a" valueTypeId="07ac451b-8f7f-446d-af16-d9bc880b325c"/>
+    <valueManagerType typeId="e8976bfd-8e1a-49ec-958d-1df334bf4830" valueTypeId="a10ab693-1154-4cf0-8efd-7f30c25e9c35"/>
+    <valueKeyType typeId="a9d79e51-3adb-4a57-a348-b51aa1bdd6ec" valueTypeId="d6855cb8-5a41-4f80-ad1e-0c823d4e6e58"/>
+  </producedTypes>
+  <name>ОтправлятьПисьма</name>
+  <synonym>
+    <key>ru</key>
+    <value>Отправлять письма</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

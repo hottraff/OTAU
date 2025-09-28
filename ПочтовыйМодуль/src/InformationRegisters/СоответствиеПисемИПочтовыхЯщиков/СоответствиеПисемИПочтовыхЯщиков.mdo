@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3db073b5-37c8-4d9c-bd66-c959b193b1b8">
+  <producedTypes>
+    <selectionType typeId="efa81bc6-d56f-4e67-88f6-b6ec326de10e" valueTypeId="b489ab0a-b3c1-4ebf-a0e3-4f00a25526c7"/>
+    <listType typeId="c6ffd596-b100-426f-ac13-8cb548c649a6" valueTypeId="00005a04-9d1b-4881-9423-40c471b2ea41"/>
+    <managerType typeId="8f1a8399-45e4-4af2-8ed4-cbdeeea15a35" valueTypeId="a925b828-2f42-45d0-8cf9-9c3a45382f39"/>
+    <recordSetType typeId="1cc4259c-177b-4df9-a1db-64a962b1e615" valueTypeId="9dcc0e50-7b64-4242-8f36-7f44224fa3b7"/>
+    <recordKeyType typeId="dca9a8ed-3e12-4bc4-84b9-326e2f171dd0" valueTypeId="ef93983d-c139-43f5-a958-b9915739b41f"/>
+    <recordType typeId="45e5de92-0a9a-4d1d-a59d-87779a450696" valueTypeId="af5ba62c-d0b0-48c6-853f-7b94da356445"/>
+    <recordManagerType typeId="36dc4261-7efb-4134-bd37-3d4250d13758" valueTypeId="7cf0cff7-f618-40cd-9174-858d7f321f6f"/>
+  </producedTypes>
+  <name>СоответствиеПисемИПочтовыхЯщиков</name>
+  <synonym>
+    <key>ru</key>
+    <value>Соответствие писем и почтовых ящиков</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <attributes uuid="473f9634-d151-49d2-84ce-98b6a0c68bfd">
+    <name>ФрагментТекста</name>
+    <synonym>
+      <key>ru</key>
+      <value>Фрагмент текста</value>
+    </synonym>
+    <comment>Фрагмент текста в теме или теле письма</comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>999</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </attributes>
+  <dimensions uuid="18329ee7-d973-42ca-9feb-6091b806fc04">
+    <name>НаименованиеЯщика</name>
+    <synonym>
+      <key>ru</key>
+      <value>Наименование ящика</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>20</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="5bb3bb48-2c40-4b42-802b-fdbcb0243ad8">
+    <name>ИскатьВТемеПисьма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Искать в теме письма</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="eb98c057-0f47-4afd-ab57-8bffa02debed">
+    <name>ИскатьВТелеПисьма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Искать в теле письма</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

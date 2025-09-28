@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="bed1502c-4789-412a-89e4-bdf30c8e65b1">
+  <producedTypes>
+    <objectType typeId="239e086b-e7e0-4a52-9c44-7d93e3481df3" valueTypeId="0dd64e39-66fc-45e6-bdf7-a53ba3eccdb4"/>
+    <managerType typeId="1155a638-03f1-4398-b88e-43edbd5c14fc" valueTypeId="83de9eae-f9fe-48bd-af18-eaa474b456d2"/>
+  </producedTypes>
+  <name>ОтправкаПисьма</name>
+  <synonym>
+    <key>ru</key>
+    <value>Написать письмо</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.ОтправкаПисьма.Form.Форма</defaultForm>
+  <forms uuid="7f816e0b-1b2f-4619-b291-ff984f61e5cb">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="e5c8d378-f2a0-453e-a6e8-31cd37b07550">
+    <name>ФормаВыборФайла</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбор файла</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

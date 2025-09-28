@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b126197b-6563-4364-8484-b82fc7ec3e2f">
+  <producedTypes>
+    <objectType typeId="5bb1cd5b-44f8-4618-bf2b-2423c8cfc728" valueTypeId="2eaad067-512f-4673-883c-a14d1f2f7c09"/>
+    <refType typeId="9cfb6acb-bc1d-4685-9570-92b31bf167be" valueTypeId="5808f443-7f42-4198-b45b-4fb0d8cce43f"/>
+    <selectionType typeId="fe08de2c-faa4-4575-9452-6fd93bb8621b" valueTypeId="fb5bd820-b8cd-4196-b16f-f997c57546ea"/>
+    <listType typeId="eb01b731-cdcc-434f-b177-8d8d1ed23345" valueTypeId="b58e4b51-e18d-4dae-9e4c-084217c91eef"/>
+    <managerType typeId="f8c20bce-7ada-4a5c-ab58-ad7c82e60108" valueTypeId="fb0d7084-bdb7-4d12-b14c-0da7a16ae0ad"/>
+  </producedTypes>
+  <name>ГруппыПользователей</name>
+  <synonym>
+    <key>ru</key>
+    <value>Группы пользователей</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ГруппыПользователей.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.ГруппыПользователей.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultChoiceForm>Catalog.ГруппыПользователей.Form.ФормаВыбора</defaultChoiceForm>
+  <tabularSections uuid="e38e2b4a-dd7c-404f-b71a-e1e1d45a7fb8">
+    <producedTypes>
+      <objectType typeId="50f77e7e-5471-43a6-aa0d-ed5046767456" valueTypeId="932bf21b-5c5d-4df6-90f9-e4b908c25ffd"/>
+      <rowType typeId="65b5def7-d3b2-4937-b191-174fde9dfc82" valueTypeId="ea7830f4-4e3a-490a-83c2-55f4f244a6ba"/>
+    </producedTypes>
+    <name>Пользователи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пользователи</value>
+    </synonym>
+    <attributes uuid="fb8417fc-ebca-4463-8579-10bcff71d5b6">
+      <name>Пользователь</name>
+      <synonym>
+        <key>ru</key>
+        <value>Пользователь</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.Пользователи</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <forms uuid="caa6da8a-8a7d-4971-98e6-63b9ff0be5ec">
+    <name>ФормаВыбора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

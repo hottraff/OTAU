@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6d0d5bbb-b8c8-45f0-856f-4f65a007acbf">
+  <name>УчетныеДанные</name>
+  <synonym>
+    <key>ru</key>
+    <value>Учетные данные</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Constant.ОтправлятьПисьма</content>
+  <content>Catalog.УчетныеЗаписиЭлектроннойПочты</content>
+  <content>InformationRegister.СоответствиеПисемИПочтовыхЯщиков</content>
+  <content>Constant.СистемнаяУчетнаяЗапись</content>
+  <parentSubsystem>Subsystem.ПочтовыйМодуль</parentSubsystem>
+</mdclass:Subsystem>

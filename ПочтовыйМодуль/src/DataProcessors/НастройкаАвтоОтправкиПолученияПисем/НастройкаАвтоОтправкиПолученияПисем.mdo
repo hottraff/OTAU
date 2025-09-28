@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6ffb3680-56e3-4014-9b3b-02f8c578a777">
+  <producedTypes>
+    <objectType typeId="aec3d41e-5b08-4df5-8763-f21c89703818" valueTypeId="2277d309-3781-4522-9e59-699036bc5bc6"/>
+    <managerType typeId="de6a3280-6913-4873-8ace-3a036be299c4" valueTypeId="05e2caf3-43b9-4d2d-8a8c-438aa8125649"/>
+  </producedTypes>
+  <name>НастройкаАвтоОтправкиПолученияПисем</name>
+  <synonym>
+    <key>ru</key>
+    <value>Настройка авто отправки/получения писем</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.НастройкаАвтоОтправкиПолученияПисем.Form.Форма</defaultForm>
+  <attributes uuid="4ecae2ba-369d-458a-8b62-8c6b0d070fda">
+    <name>Использовать</name>
+    <synonym>
+      <key>ru</key>
+      <value>Использовать</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="bf24d3c9-1002-4b4f-954b-9955a0180f37">
+    <name>ДатаНачала</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата начала</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="60fc052a-132b-4a4c-885f-ad0f62a73621">
+    <name>ДатаОкончания</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата окончания</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="6516a007-5a31-438c-a62f-f2833002de7e">
+    <name>ИнтервалЗапуска</name>
+    <synonym>
+      <key>ru</key>
+      <value>Интервал запуска</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="20b4930b-9e26-4c15-9768-8878949718be">
+    <name>ИспользоватьВходящ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Использовать входящ</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="714e4f59-95fa-4413-bc16-2f0d84b61846">
+    <name>ДатаНачалаВходящ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата начала входящ</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="c2466fce-c3da-414c-a38e-b764328072f1">
+    <name>ДатаОкончанияВходящ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата окончания входящ</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="75a3a550-b0f7-4651-93b8-679fb910c09a">
+    <name>ИнтервалЗапускаВходящ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Интервал запуска входящ</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <forms uuid="f174d0de-319a-4057-85d3-d24dcfa0552f">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

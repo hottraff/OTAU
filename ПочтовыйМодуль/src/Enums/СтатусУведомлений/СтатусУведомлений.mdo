@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="646e745b-2e60-4fd9-af4a-878ce5c85c7c">
+  <producedTypes>
+    <refType typeId="224f646f-c84a-440c-9ba0-cccbb88ad050" valueTypeId="2cea10c8-c447-40fd-a8e1-5a6d4ef7e9d0"/>
+    <listType typeId="17a59819-fe7a-44f7-be3d-c0bc54e8995b" valueTypeId="73e03c8b-3d76-45bb-b37e-88c587a851e1"/>
+    <managerType typeId="da7890c5-b87c-4ce4-ac01-42856f6bb426" valueTypeId="0ef75d32-214c-4cbb-9caa-d587d8400ffc"/>
+  </producedTypes>
+  <name>СтатусУведомлений</name>
+  <synonym>
+    <key>ru</key>
+    <value>Статус уведомлений</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="d56390cf-bb34-4f9c-b8bb-2ad301bd9967">
+    <name>Важное</name>
+    <synonym>
+      <key>ru</key>
+      <value>Важное</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="4be34a44-7d3d-4789-8432-0e1e9434408e">
+    <name>Обычное</name>
+    <synonym>
+      <key>ru</key>
+      <value>Обычное</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e29f5ef3-8513-435d-87b2-38d348d99ac1">
+  <producedTypes>
+    <selectionType typeId="aa88b7a2-1bb2-4e55-976a-c3f11a9b4d86" valueTypeId="4d58e95d-8e80-431c-ac7d-0b68da68c96c"/>
+    <listType typeId="60e6f087-2566-4bf9-a3fe-e7dd41edf332" valueTypeId="0de3a387-475a-4996-a0ea-177dafa5abff"/>
+    <managerType typeId="6c6f3264-02fd-4221-883b-dee6e81ccb09" valueTypeId="c9ffc7b1-48af-4e75-a1da-c6cc9713e2c4"/>
+    <recordSetType typeId="d0b37ac5-cd18-41fc-994d-cb52ff39dac9" valueTypeId="6ff176f2-147f-4f8f-a71b-c61b11eb3231"/>
+    <recordKeyType typeId="bd9d78e7-d357-4dee-9ad3-c29ff3679da0" valueTypeId="61ff5fd3-7231-4dce-8d86-e0ab7b53e036"/>
+    <recordType typeId="f42e303e-0861-4035-96a2-83c06a0a2124" valueTypeId="03f85907-cc39-406b-b9d7-5b5198c24bd9"/>
+    <recordManagerType typeId="5dca0ecf-4b13-42d8-bfba-fbc5ea1e3194" valueTypeId="13478414-ac3c-4dfe-9bd0-c20f806d7260"/>
+  </producedTypes>
+  <name>УчетныеЗаписиНаАвтоОтправлениеПисем</name>
+  <synonym>
+    <key>ru</key>
+    <value>Учетные записи на авто отправление писем</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <dimensions uuid="cb811286-eef4-4ba0-ae77-08fb1b3d966c">
+    <name>УчетнаяЗапись</name>
+    <synonym>
+      <key>ru</key>
+      <value>Учетная запись</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.УчетныеЗаписиЭлектроннойПочты</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

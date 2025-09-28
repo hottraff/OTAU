@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="cd690575-9c8b-4e41-9ffa-665595bfd598">
+  <producedTypes>
+    <managerType typeId="27b21b2a-1aa7-4ee2-ba2e-e0d192d4cdff" valueTypeId="5e28b321-459c-4407-b554-2ceedcddca0b"/>
+    <valueManagerType typeId="d4a45ab9-238e-4c89-b8a8-5862606144f0" valueTypeId="66f74839-33de-4430-984c-bf0c39fc17b9"/>
+    <valueKeyType typeId="a29a803a-b359-4247-8bf1-94e349b45b79" valueTypeId="9fa107f1-f0d1-4c8d-81fe-72db3e0cf3a4"/>
+  </producedTypes>
+  <name>КаталогВложенийУведомлений</name>
+  <synonym>
+    <key>ru</key>
+    <value>Каталог вложений уведомлений</value>
+  </synonym>
+  <type>
+    <types>String</types>
+    <stringQualifiers/>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

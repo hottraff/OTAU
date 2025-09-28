@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Configuration xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b98d3542-27a2-4deb-b2b8-30af93b54c88">
+  <name>Конфигурация</name>
+  <containedObjects classId="9cd510cd-abfc-11d4-9434-004095e12fc7" objectId="5f036a60-cf98-4160-b8b6-40931e19c624"/>
+  <containedObjects classId="9fcd25a0-4822-11d4-9414-008048da11f9" objectId="d9f6ad9d-6d2a-4f4c-a2a3-21b52fc68ada"/>
+  <containedObjects classId="e3687481-0a87-462c-a166-9f34594f9bba" objectId="01b0a3e4-5516-4ca1-ada5-767cfca9e32f"/>
+  <containedObjects classId="9de14907-ec23-4a07-96f0-85521cb6b53b" objectId="ea23fae1-b38f-47c3-bac0-9bc0d3d3b139"/>
+  <containedObjects classId="51f2d5d8-ea4d-4064-8892-82951750031e" objectId="b84a79e2-78e7-4414-a04b-98d0547f5770"/>
+  <containedObjects classId="e68182ea-4237-4383-967f-90c1e3370bc7" objectId="dfadfcd9-9c59-4ebd-9f17-41b4810d6ee8"/>
+  <containedObjects classId="fb282519-d103-4dd3-bc12-cb271d631dfc" objectId="3a038b9d-cc0a-4cb9-849a-b25f81a50eb5"/>
+  <configurationExtensionCompatibilityMode>8.3.21</configurationExtensionCompatibilityMode>
+  <defaultRunMode>ManagedApplication</defaultRunMode>
+  <usePurposes>PersonalComputer</usePurposes>
+  <scriptVariant>Russian</scriptVariant>
+  <usedMobileApplicationFunctionalities>
+    <functionality>
+      <use>true</use>
+    </functionality>
+    <functionality>
+      <functionality>OSBackup</functionality>
+      <use>true</use>
+    </functionality>
+  </usedMobileApplicationFunctionalities>
+  <defaultLanguage>Language.Русский</defaultLanguage>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <objectAutonumerationMode>NotAutoFree</objectAutonumerationMode>
+  <modalityUseMode>DontUse</modalityUseMode>
+  <synchronousPlatformExtensionAndAddInCallUseMode>DontUse</synchronousPlatformExtensionAndAddInCallUseMode>
+  <compatibilityMode>8.3.19</compatibilityMode>
+  <languages uuid="ecf2c5aa-7d3e-4efe-84c4-b71bc062360a">
+    <name>Русский</name>
+    <synonym>
+      <key>ru</key>
+      <value>Русский</value>
+    </synonym>
+    <languageCode>ru</languageCode>
+  </languages>
+  <subsystems>Subsystem.ПочтовыйМодуль</subsystems>
+  <subsystems>Subsystem.Уведомления</subsystems>
+  <commonPictures>CommonPicture.ОбщаяКартинка1</commonPictures>
+  <sessionParameters>SessionParameter.IDОповещений</sessionParameters>
+  <sessionParameters>SessionParameter.ТекущийПользователь</sessionParameters>
+  <roles>Role.ПолныеПрава</roles>
+  <roles>Role.ПолныеПраваУведомления</roles>
+  <roles>Role.ПочтовыйМодульПолнйДоступ</roles>
+  <roles>Role.ПочтовыйМодульЧтение</roles>
+  <commonModules>CommonModule.МодульОповещений</commonModules>
+  <commonModules>CommonModule.ОбщегоНазначенияКлиентСервер</commonModules>
+  <commonModules>CommonModule.ОтправкаУведомлений</commonModules>
+  <commonModules>CommonModule.ПочтовыйМодуль</commonModules>
+  <commonModules>CommonModule.СтроковыеФункцииКлиентСервер</commonModules>
+  <scheduledJobs>ScheduledJob.ОтправкаОтложенныхПисем</scheduledJobs>
+  <scheduledJobs>ScheduledJob.ПолучениеПочты</scheduledJobs>
+  <constants>Constant.ВключитьУведомления</constants>
+  <constants>Constant.ИнтервалУведомлений</constants>
+  <constants>Constant.КаталогВложенийУведомлений</constants>
+  <constants>Constant.ОтправлятьПисьма</constants>
+  <constants>Constant.СистемнаяУчетнаяЗапись</constants>
+  <commonForms>CommonForm.ФормаВыборФайла</commonForms>
+  <commonForms>CommonForm.ФормаУведомлений</commonForms>
+  <catalogs>Catalog.ГруппыПользователей</catalogs>
+  <catalogs>Catalog.Пользователи</catalogs>
+  <catalogs>Catalog.Уведомления</catalogs>
+  <catalogs>Catalog.УчетныеЗаписиЭлектроннойПочты</catalogs>
+  <documents>Document.ЭлектронноеПисьмоВходящее</documents>
+  <enums>Enum.СтатусИсходящихПисем</enums>
+  <enums>Enum.СтатусУведомлений</enums>
+  <enums>Enum.ТипыТекстовЭлектронныхПисем</enums>
+  <dataProcessors>DataProcessor.НастройкаАвтоОтправкиПолученияПисем</dataProcessors>
+  <dataProcessors>DataProcessor.ОтправкаПисьма</dataProcessors>
+  <informationRegisters>InformationRegister.ЖурналИсходящихПисем</informationRegisters>
+  <informationRegisters>InformationRegister.РеестрУведомлений</informationRegisters>
+  <informationRegisters>InformationRegister.СоответствиеПисемИПочтовыхЯщиков</informationRegisters>
+  <informationRegisters>InformationRegister.УчетныеЗаписиНаАвтоОтправлениеПисем</informationRegisters>
+  <informationRegisters>InformationRegister.УчетныеЗаписиНаАвтополучениеПисем</informationRegisters>
+</mdclass:Configuration>

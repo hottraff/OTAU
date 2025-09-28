@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="bc2f1442-7523-4582-8c6b-baaa71b750be">
+  <producedTypes>
+    <refType typeId="8cee296b-626b-4eac-8a17-daa13456a020" valueTypeId="40fb87f0-f85f-4f25-86be-431be1da77eb"/>
+    <listType typeId="66892748-6196-480f-b18c-4ed215d1a8c5" valueTypeId="aacda172-c045-434c-a5ad-cc2634f9363a"/>
+    <managerType typeId="deea3af0-9a0f-4159-8204-98e7661cf10c" valueTypeId="4153517b-9321-413a-aa62-2ad10efbec0e"/>
+  </producedTypes>
+  <name>СтатусИсходящихПисем</name>
+  <synonym>
+    <key>ru</key>
+    <value>Статус исходящих писем</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="058c25b0-65d0-4eab-81f7-ce90b71a20be">
+    <name>Отправлено</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отправлено</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="5b449499-9054-49a1-87e5-f49de49a6417">
+    <name>Ошибка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ошибка</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="2542025e-e781-49da-8e63-4dc35bbea49d">
+    <name>ВОжидании</name>
+    <synonym>
+      <key>ru</key>
+      <value>В ожидании</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="c61ec044-f3d0-465f-a6e3-cdbac4654adf">
+    <name>СнятоСОжидания</name>
+    <synonym>
+      <key>ru</key>
+      <value>Снято с ожидания</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="64749744-6b80-4197-8c7a-5192a5c9c230">
+  <producedTypes>
+    <managerType typeId="0fdb49e5-a29c-46f9-91cb-835912943b8a" valueTypeId="bb527747-c75d-4c57-9f54-b7e794b29ee8"/>
+    <valueManagerType typeId="f362ba2a-0131-45fa-bde3-ff25ac598b6c" valueTypeId="2aa006bb-48e3-4842-a8d9-05bad0177175"/>
+    <valueKeyType typeId="4908018b-e7f5-45e2-af5b-60075795e12f" valueTypeId="7532ed23-901d-490d-bb35-f91c882ffa8c"/>
+  </producedTypes>
+  <name>ИнтервалУведомлений</name>
+  <synonym>
+    <key>ru</key>
+    <value>Интервал уведомлений</value>
+  </synonym>
+  <comment>Указывается в секундах</comment>
+  <type>
+    <types>Number</types>
+    <numberQualifiers>
+      <precision>5</precision>
+    </numberQualifiers>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>
